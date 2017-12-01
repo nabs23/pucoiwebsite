@@ -3,7 +3,7 @@
 <head>
 
     <!-- Page title -->
-    <title>Philippine Ulama Congress Organization, Inc.</title>
+    <title>{{ $title }}</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -35,7 +35,7 @@
 
     <div class="header-text">
 
-        <h1>Philippine Ulama Congress Organization, Inc.</h1>
+        <h1>{{ $title }}</h1>
 
         <!-- Navigation -->
         <nav id="navigation" class="navbar">
@@ -50,13 +50,10 @@
             </button>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="underline" href="#home">Home</a></li>
-                    <li><a class="underline" href="#about">About</a></li>
-                    <li><a class="underline" href="#features">Features</a></li>
-                    <li><a class="underline" href="#portfolio">Portfolio</a></li>
-                    <li><a class="underline" href="#testimonials">Testimonials</a></li>
-                    <li><a class="underline" href="#price">Price</a></li>
-                    <li><a class="underline" href="#contact">Contact</a></li>
+                    <li><a class="underline" href="/">Home</a></li>
+                    <li><a class="underline" href="/about">About</a></li>
+                    <li><a class="underline" href="/#services">Services</a></li>
+                    <li><a class="underline" href="/#org">Organization</a></li>
                 </ul>
             </div>
         </nav><!-- /Navigation -->
@@ -68,6 +65,7 @@
 
 
 @yield('content')
+
 
 <!-- FOOTER -->
 <footer class="footer">
@@ -86,12 +84,11 @@
             <!-- Footer links and copyright -->
             <div class="col-md-6 footer-terms">
                 <div>
-                    <a href="#">Information</a>
-                    <a href="#">Terms of service</a>
-                    <a href="#">Private police</a>
-                </div>
-                <div>
-                    Copyright &copy; 2016 Company Name
+                    Copyright &copy; 2018 PUCOI <br />
+                    Member, International Halal Integrity Alliance (IHIA)<br>
+                    SEC. REG. NO. CN200520263<br>
+                    Bank Account: 3883-0661-88 Bank of the Philippine Islands, N. Domingo St.,
+                    San Juan City, Metro Manila
                 </div>
             </div><!-- /Footer links and copyright -->
 
